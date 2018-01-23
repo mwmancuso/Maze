@@ -1,5 +1,9 @@
 /**
- * Created by 2100580 on 1/30/15.
+ * Created by Matt Mancuso on 1/30/15.
+ *
+ * Layout is an individual piece of a maze. I.e. a 20x20 maze has 400 layouts.
+ * Each Layout maintains four Borders on which a border Type is stored. Border
+ * enum is used primarily for referencing from other code.
  */
 public class Layout {
     public static enum Border {

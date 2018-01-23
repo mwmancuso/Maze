@@ -2,6 +2,8 @@ import java.util.ArrayList;
 
 /**
  * Created by Matt Mancuso on 1/29/2015.
+ *
+ * PathList keeps track of maze paths and path connections.
  */
 public class PathList extends ArrayList<ArrayList<Integer[]>> {
     private int currentPath = 0;
